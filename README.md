@@ -1,5 +1,5 @@
 # simple-IOCTL
-IOCTL proof of concept with UM. Easily detected by kernel level anticheats since you are creating your own deviceobject for communication VIA ioctl. Driver will need to be manually mapped to work without test signing. Good intro to kernel level cheats.
+IOCTL proof of concept with UM. Easily detected by kernel level anticheats since you would need to use IoCreateDriver() to setup communication if manually mapped. Driver will need to be manually mapped to work without test signing. Good intro to kernel level cheats.
 
 driver.h is part of the usermode portion. Compile both for x64 release
 
